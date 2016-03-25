@@ -1,0 +1,43 @@
+
+#slider {
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+  
+
+	
+}
+
+
+img {
+	width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    z-index: 0;
+	
+}
+
+div#imageCaption {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    bottom: 0px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+#imageCaption {
+    font-family: fantasy;
+    font-size: 30px;
+    color:white;
+    padding: 10px;
+
+}
